@@ -1,0 +1,18 @@
+{
+	"name": "lulco/nette-phinx-registrator",
+	"type": "library",
+	"description": "Integration of Phinx Database Migrations into Nette Framework",
+	"keywords": ["PHP", "Phinx", "Nette"],
+	"require": {
+		"php": ">=5.5.0",
+		"robmorgan/phinx": "~0.4.5",
+		"nette/finder": "~2.3"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "~2.0",
+		"phpunit/phpunit": "~4.8"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
